@@ -1,9 +1,14 @@
 :root {
   font-family: 'Poppins', sans-serif;
-  background-color: #1F1F24;
+  --color-primary: #1F1F24;
+  --color-primary-light: #333337;
+  --color-secundary: #FFE65A;
+  --color-white: #EEE;
 }
 
-*, html, body {
+html, body {
   margin: 0;
   padding: 0;
+  background-color: var(--color-primary);
+  box-sizing: border-box;
 }

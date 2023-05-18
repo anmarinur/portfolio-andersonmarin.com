@@ -3,8 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  padding:1rem;
-  background-color: transparent;
+  padding:0.5rem;
 }
 
 .container-navbar ul {
@@ -16,26 +15,20 @@
 .container-navbar ul li {
   font-size: 1rem;
   font-weight: bold;
-  color: #EEE;
-}
-
-.container-navbar ul li {
-  font-size: 1rem;
-  font-weight: bold;
-  color: #EEE;
+  color: var(--color-white);
   cursor: pointer;
   transition: all 300ms;
 }
 
 .container-navbar ul li:hover {
-  text-shadow: 0 0 0.5rem #EEE;
+  text-shadow: 0 0 0.5rem var(--color-white);
 }
 
 .container-navbar ul li::after {
   content: "";
   height: 0.2rem;
   width: 0;
-  background-color: aqua;
+  background-color: var(--color-secundary);
   display: block;
   transition: all 300ms;
 }

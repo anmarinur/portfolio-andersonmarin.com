@@ -1,0 +1,38 @@
+.container-profile {
+  margin: 6rem 0;
+  padding: 2rem 0;
+  background-color: var(--color-primary-light);
+  border-radius: 4rem;
+}
+
+.container-profile-headers {
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.h1-profile {
+  font-size: 6rem;
+}
+
+.h2-profile {
+  font-size: 3rem;
+  color: var(--color-secundary);
+}
+
+.p-profile {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.h1-profile, .h2-profile {
+  margin: 0;
+  padding: 0;
+}
+
+.h1-profile, .p-profile {
+  color: var(--color-white);
+}
