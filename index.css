@@ -1,0 +1,9 @@
+:root {
+  font-family: 'Poppins', sans-serif;
+  background-color: #1F1F24;
+}
+
+*, html, body {
+  margin: 0;
+  padding: 0;
+}
