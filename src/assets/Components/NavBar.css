@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   padding:0.5rem;
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-opacity);
 }
 
 .container-navbar ul {

@@ -1,16 +1,23 @@
 import './Profile.css'
+import logo from '/anmarinur.svg'
+import bulb from '/bulb.svg'
 
 export function Profile() {
   return (
     <div className='container-profile'>
       <div className='container-profile-logo'>
+        <img className="logo-profile" alt="logo de anmarinur" src={logo} />
         <div className='container-profile-headers'>
           <h1 className='h1-profile'>Anderson Marín</h1>
           <h2 className='h2-profile'>Full Stack Web Developer</h2>
         </div>
-        <image alt="logo" src="#"/>
       </div>
-      <p className='p-profile'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, omnis quasi perspiciatis impedit praesentium vero aliquam, natus voluptatibus a deleniti nisi dolore qui temporibus nobis obcaecati eveniet ducimus officia inventore.</p>
+      <div className='container-about-me'>
+        <div className="container-about-me-p">
+          <img alt="Ícono de un bombillo" src={bulb} className="p-bulb" />
+          <p className='p-profile'>Hi, I'm Anderson! A highly motivated and passionate electronic engineer specialized in web development.</p>
+        </div>
+      </div>
     </div>
   );
 }
