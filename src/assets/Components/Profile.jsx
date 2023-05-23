@@ -9,13 +9,13 @@ export function Profile() {
         <img className="logo-profile" alt="logo de anmarinur" src={logo} />
         <div className='container-profile-headers'>
           <h1 className='h1-profile'>Anderson Marín</h1>
-          <h2 className='h2-profile'>Full Stack Web Developer</h2>
+          <h2 className='h2-profile'>Front End Web Developer</h2>
         </div>
       </div>
       <div className='container-about-me'>
         <div className="container-about-me-p">
-          <img alt="Ícono de un bombillo" src={bulb} className="p-bulb" />
-          <p className='p-profile'>Hi, I'm Anderson! A highly motivated and passionate electronic engineer specialized in web development.</p>
+          <img alt="Ícono de un bombillo" src={bulb} className="p-bulb"/>
+          <p className='p-profile'>Hi, I'm Anderson! A highly motivated and passionate web developer.</p>
         </div>
       </div>
     </div>

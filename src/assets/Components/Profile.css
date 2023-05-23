@@ -1,11 +1,10 @@
 .container-profile {
-  margin: 6.5rem 0;
+  margin: 5rem 0;
   padding: 2rem 0;
   background-color: var(--color-primary-light);
   border-radius: 4rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
 }
 
 .container-profile-headers {
@@ -37,12 +36,13 @@
   gap: 2rem;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
   .container-profile-logo {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    gap:2rem;
   }
 
   .container-about-me-p {
@@ -54,7 +54,7 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .container-profile-logo {
     display: flex;
     flex-direction: row;
