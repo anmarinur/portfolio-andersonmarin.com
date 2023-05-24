@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--color-primary-opacity);
+  background-color: var(--color-primary);
   padding: 0.3rem;
   display: flex;
   flex-direction: column;
@@ -13,6 +13,7 @@
 
 .navbar-menu {
   display: 	inline;
+  width: clamp(2.2rem, 2.013rem + 0.831vw, 3rem);
 }
 
 .container-navbar-ul {
@@ -55,7 +56,8 @@
   display: flex;
   flex-direction: column;
   margin-top: 0.5rem;
-  gap: 0.3rem;
+  padding: 1rem 0;
+  gap: 1rem;
 }
 
 @media screen and (min-width: 900px) {
@@ -73,6 +75,10 @@
     align-items: center;
   }
 
+  .container-navbar-ul li {
+    font-size: 1rem;
+  }
+
   .navbar-menu {
     display: 	none;
   }
@@ -84,5 +90,8 @@
   .menu-responsive {
     display: flex;
     flex-direction: row;
+    margin-top: 0;
+    padding: 0;
+    gap: 0;
   }
 }

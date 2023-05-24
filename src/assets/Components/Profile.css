@@ -75,6 +75,7 @@
 
 .p-profile {
   font-size: clamp(1rem, 0.883rem + 0.519vw, 1.5rem);
+  text-align: center;
 }
 
 .p-bulb {
