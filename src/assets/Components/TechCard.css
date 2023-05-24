@@ -1,0 +1,19 @@
+.container-tech-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tech-card-title {
+  color: var(--color-white);
+  font-size: clamp(0.9rem, 0.806rem + 0.416vw, 1.3rem);
+}
+
+.tech-card-img {
+  transition: all 300ms;
+  width: clamp(3rem, 1.831rem + 5.195vw, 8rem);
+}
+
+.tech-card-img:hover {
+  filter: drop-shadow(0 0 3rem var(--color-white));
+}
