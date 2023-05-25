@@ -1,0 +1,19 @@
+.container-card-portfolio {
+  width: 30%;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 4rem;
+}
+
+.container-card-portfolio-title, .container-card-portfolio-p {
+  color: var(--color-primary);
+  text-align: center;
+}
+
+.container-card-img {
+  width: 80%;
+  margin: 0 auto;
+}
