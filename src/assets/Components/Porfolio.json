@@ -1,5 +1,13 @@
 [
   {
+    "name": "Technology E-Commerce",
+    "link": "https://e-commerce-pf-henna.vercel.app/",
+    "repository": "https://github.com/anmarinur/E-commerce-PF",
+    "image": "/img/e-commerce-app.png",
+    "description": "E-commerce about electronic products",
+    "technologies": ["HTML", "CSS", "JavaScript", "React"]
+  },
+  {
     "name": "Weather app",
     "link": "https://weather-anderson-m.netlify.app/",
     "repository": "https://github.com/anmarinur/weather-app",
@@ -8,11 +16,19 @@
     "technologies": ["HTML", "CSS", "JavaScript", "React"]
   },
   {
-    "name": "Technology E-Commerce",
-    "link": "",
-    "repository": "https://github.com/anmarinur/E-commerce-PF",
-    "image": [],
-    "description": "E-commerce about electronic products",
+    "name": "Weather app",
+    "link": "https://weather-anderson-m.netlify.app/",
+    "repository": "https://github.com/anmarinur/weather-app",
+    "image": "/img/weather-app.png",
+    "description": "Web application that provides the weather in the cities around the world",
+    "technologies": ["HTML", "CSS", "JavaScript", "React"]
+  },
+  {
+    "name": "Weather app",
+    "link": "https://weather-anderson-m.netlify.app/",
+    "repository": "https://github.com/anmarinur/weather-app",
+    "image": "/img/weather-app.png",
+    "description": "Web application that provides the weather in the cities around the world",
     "technologies": ["HTML", "CSS", "JavaScript", "React"]
   }
 ]

@@ -4,8 +4,9 @@
   --color-primary-opacity: rgba(31, 31, 36, 0.6);
   --color-primary-light: #333337;
   --color-secundary: #FFE65A;
+  --color-secundary-opacity: rgba(255, 230, 90, 0.6);
   --color-white: #EEE;
-  --color-white-opacity: rgba(238, 238, 238, 0.3);
+  --color-white-opacity: rgba(238, 238, 238, 0.6);
 }
 
 html, body {
