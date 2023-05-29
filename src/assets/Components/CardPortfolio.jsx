@@ -1,15 +1,14 @@
-import { useState } from 'react';
 import './CardPortfolio.css';
 
-export function CardPortfolio({ name, link, repository, image, description, technologies }) {
+export function CardPortfolio({ name, link, repository, image, description, technologies, color }) {
 
   return (
     <div className="container-card-portfolio">
       <figure>
         <img className="container-card-img" src={image} alt={name} />
         <div className="container-card-capa">
-          <h2 className="container-card-portfolio-title">{name}</h2>
-          <p className="container-card-portfolio-p">{description}</p>
+          <h2 className={`container-card-portfolio-title ${color}`}>{name}</h2>
+          <p className={`container-card-portfolio-p ${color}`}>{description}</p>
         </div>
       </figure>
       <div className="container-card-links">

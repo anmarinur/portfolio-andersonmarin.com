@@ -1,10 +1,20 @@
 [
   {
+    "name": "Personal Portfolio",
+    "link": "https://www.andersonmarin.com/",
+    "repository": "https://github.com/anmarinur/portfolio-andersonmarin.com",
+    "image": "/img/personal-portfolio.png",
+    "description": "Personal portfolio about my skills and expertice in the web development field",
+    "color": "white",
+    "technologies": ["HTML", "CSS", "JavaScript", "React", "Vite"]
+  },
+  {
     "name": "Technology E-Commerce",
     "link": "https://e-commerce-pf-henna.vercel.app/",
     "repository": "https://github.com/anmarinur/E-commerce-PF",
     "image": "/img/e-commerce-app.png",
     "description": "E-commerce about electronic products",
+    "color": "black",
     "technologies": ["HTML", "CSS", "JavaScript", "React"]
   },
   {
@@ -13,6 +23,7 @@
     "repository": "https://github.com/anmarinur/weather-app",
     "image": "/img/weather-app.png",
     "description": "Web application that provides the weather in the cities around the world",
+    "color": "black",
     "technologies": ["HTML", "CSS", "JavaScript", "React"]
   },
   {
@@ -21,6 +32,7 @@
     "repository": "https://github.com/anmarinur/weather-app",
     "image": "/img/weather-app.png",
     "description": "Web application that provides the weather in the cities around the world",
+    "color": "black",
     "technologies": ["HTML", "CSS", "JavaScript", "React"]
   },
   {
@@ -29,6 +41,43 @@
     "repository": "https://github.com/anmarinur/weather-app",
     "image": "/img/weather-app.png",
     "description": "Web application that provides the weather in the cities around the world",
+    "color": "black",
+    "technologies": ["HTML", "CSS", "JavaScript", "React"]
+  },
+  {
+    "name": "Weather app",
+    "link": "https://weather-anderson-m.netlify.app/",
+    "repository": "https://github.com/anmarinur/weather-app",
+    "image": "/img/weather-app.png",
+    "description": "Web application that provides the weather in the cities around the world",
+    "color": "black",
+    "technologies": ["HTML", "CSS", "JavaScript", "React"]
+  },
+  {
+    "name": "Weather app",
+    "link": "https://weather-anderson-m.netlify.app/",
+    "repository": "https://github.com/anmarinur/weather-app",
+    "image": "/img/weather-app.png",
+    "description": "Web application that provides the weather in the cities around the world",
+    "color": "black",
+    "technologies": ["HTML", "CSS", "JavaScript", "React"]
+  },
+  {
+    "name": "Weather app",
+    "link": "https://weather-anderson-m.netlify.app/",
+    "repository": "https://github.com/anmarinur/weather-app",
+    "image": "/img/weather-app.png",
+    "description": "Web application that provides the weather in the cities around the world",
+    "color": "black",
+    "technologies": ["HTML", "CSS", "JavaScript", "React"]
+  },
+  {
+    "name": "Weather app",
+    "link": "https://weather-anderson-m.netlify.app/",
+    "repository": "https://github.com/anmarinur/weather-app",
+    "image": "/img/weather-app.png",
+    "description": "Web application that provides the weather in the cities around the world",
+    "color": "black",
     "technologies": ["HTML", "CSS", "JavaScript", "React"]
   }
 ]
