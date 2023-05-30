@@ -91,11 +91,15 @@
   padding-top: 1rem;
 }
 
-
-.container-card-portfolio-sm p, h2 {
+.container-card-portfolio-sm h2, .container-card-portfolio-sm-p {
   font-size: 1rem;
   text-align: center;
   color: var(--color-white);
+}
+
+.container-card-portfolio-sm-tech {
+  color: var(--color-secundary);
+  text-align: center;
 }
 
 .black {

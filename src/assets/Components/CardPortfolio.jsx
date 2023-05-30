@@ -6,7 +6,7 @@ export function CardPortfolio({ name, link, repository, image, description, tech
   let colorTags = '';
 
   technologies.map((tech, i) => (
-    i < technologies.length - 1 ? htmlTech += '#' + tech + ', ' : htmlTech += '#' + tech 
+    i < technologies.length - 1 ? htmlTech += tech + ', ' : htmlTech += tech 
   ))
 
   if (color == 'white') {
@@ -17,8 +17,8 @@ export function CardPortfolio({ name, link, repository, image, description, tech
     <div className="container-card-portfolio">
       <div className='container-card-portfolio-sm'>
         <h2>{name}</h2>
-        <p>{description}</p>
-        <p>           
+        <p className="container-card-portfolio-sm-p">{description}</p>
+        <p className="container-card-portfolio-sm-tech">           
           {htmlTech}
         </p>
       </div>

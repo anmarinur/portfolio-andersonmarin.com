@@ -7,7 +7,8 @@ export function Technologies() {
     html5: 'HTML',
     css3: 'CSS',
     javascript: 'JavaScript',
-    react: 'React'
+    react: 'React',
+    github: 'GitHub'
   }
 
   return (
