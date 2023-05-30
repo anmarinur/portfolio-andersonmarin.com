@@ -27,7 +27,7 @@ export function Portfolio() {
   console.log(limit, dataFull)
 
   return(
-    <div className="container-portfolio">
+    <div id="portfolio" className="container-portfolio">
       <h2 className="title-portfolio">Portfolio</h2>
       <div className="container-portfolio-cards">
         {

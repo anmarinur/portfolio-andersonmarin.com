@@ -4,7 +4,7 @@ import bulb from '/bulb.svg'
 
 export function Profile() {
   return (
-    <div className='container-profile'>
+    <div id="profile" className='container-profile'>
       <div className='container-profile-logo'>
         <img className="logo-profile" alt="logo de anmarinur" src={logo} />
         <div className='container-profile-headers'>

@@ -19,3 +19,10 @@ html, body {
 html {
   scroll-behavior: smooth;
 }
+
+:target:before {
+  content: "";
+  display: block;
+  height: 5rem; /* Ajusta esto según la altura de tu encabezado */
+  margin: -5rem 0 0; /* Ajusta esto según la altura de tu encabezado */
+}

@@ -1,5 +1,7 @@
 export function Contact() {
   return(
-    <h2>Contact</h2>
+    <div>
+      <h2 id="contact">Contact</h2>
+    </div>
   );
 }

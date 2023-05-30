@@ -15,11 +15,11 @@ export function NavBar() {
     <div className="container-navbar">
       <img className="navbar-menu" alt="Ícono menú" src={menuIcon} onClick={handleClick}/>
       <ul className ={menu ? "container-navbar-ul menu-responsive" : "container-navbar-ul"}>
-        <li>Anderson Marín</li>
-        <li>Profile</li>
-        <li>Technologies</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
+        <li><a href="#">Anderson Marín</a></li>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#tech">Technologies</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   );
