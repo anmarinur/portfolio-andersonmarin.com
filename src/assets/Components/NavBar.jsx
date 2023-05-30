@@ -22,7 +22,7 @@ export function NavBar() {
       <ul className ={menu ? "container-navbar-ul menu-responsive" : "container-navbar-ul"}>
         <li><a href="#">Anderson Marín</a></li>
         <li><a href="#profile">Profile</a></li>
-        <li><a href="#tech">Technologies</a></li>
+        <li><a href="#tech">Skills</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>

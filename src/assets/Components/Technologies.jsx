@@ -13,7 +13,7 @@ export function Technologies() {
 
   return (
     <div className="container-tech">
-      <h2 id="tech" className="tech-title">Technologies</h2>
+      <h2 id="tech" className="tech-title">Skills</h2>
       <div className="container-tech-cards">
         {
           Object.keys(technologies).map(key => (
