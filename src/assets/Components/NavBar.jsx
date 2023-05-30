@@ -1,14 +1,19 @@
 import { useState } from 'react';
-import './NavBar.css'
-import menuIcon from '/menu.svg'
+import './NavBar.css';
 
 export function NavBar() {
 
-  const [menu, setMenu] = useState(0);
+  const [menu, setMenu] = useState(false);
+  let menuIcon = '/menu.svg';
 
   const handleClick = () => {
     setMenu(!menu);
-    console.log(menu)
+  }
+
+  if (menu) {
+    menuIcon = '/menuX.svg';
+  } else {
+    menuIcon = '/menu.svg';
   }
 
   return (
