@@ -24,8 +24,6 @@ export function Portfolio() {
     textArrow = 'Less';
   }
 
-  console.log(limit, dataFull)
-
   return(
     <div id="portfolio" className="container-portfolio">
       <h2 className="title-portfolio">Portfolio</h2>

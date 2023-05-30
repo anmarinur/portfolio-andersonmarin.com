@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-light);
   padding: 0.3rem;
   display: flex;
   flex-direction: column;
