@@ -16,9 +16,9 @@ export function CardPortfolio({ name, link, repository, image, description, tech
   return (
     <div className="container-card-portfolio">
       <div className='container-card-portfolio-sm'>
-        <h2 className={`container-card-portfolio-title`}>{name}</h2>
-        <p className={`container-card-portfolio-p`}>{description}</p>
-        <p className={`container-card-portfolio-tech`}>           
+        <h2>{name}</h2>
+        <p>{description}</p>
+        <p>           
           {htmlTech}
         </p>
       </div>

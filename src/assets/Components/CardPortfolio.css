@@ -85,8 +85,16 @@
   gap: 0.3rem;
 }
 
+.container-card-portfolio-sm {
+  width: 100%;
+  border-top: 0.1rem solid var(--color-secundary);
+  padding-top: 1rem;
+}
+
+
 .container-card-portfolio-sm p, h2 {
   font-size: 1rem;
+  text-align: center;
   color: var(--color-white);
 }
 
