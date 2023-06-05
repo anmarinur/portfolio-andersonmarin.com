@@ -25,59 +25,5 @@
     "description": "Web application that provides the weather in the cities around the world",
     "color": "black",
     "technologies": ["HTML", "CSS", "JavaScript", "React"]
-  },
-  {
-    "name": "Weather app",
-    "link": "https://weather-anderson-m.netlify.app/",
-    "repository": "https://github.com/anmarinur/weather-app",
-    "image": "/img/weather-app.png",
-    "description": "Web application that provides the weather in the cities around the world",
-    "color": "black",
-    "technologies": ["HTML", "CSS", "JavaScript", "React"]
-  },
-  {
-    "name": "Weather app",
-    "link": "https://weather-anderson-m.netlify.app/",
-    "repository": "https://github.com/anmarinur/weather-app",
-    "image": "/img/weather-app.png",
-    "description": "Web application that provides the weather in the cities around the world",
-    "color": "black",
-    "technologies": ["HTML", "CSS", "JavaScript", "React"]
-  },
-  {
-    "name": "Weather app",
-    "link": "https://weather-anderson-m.netlify.app/",
-    "repository": "https://github.com/anmarinur/weather-app",
-    "image": "/img/weather-app.png",
-    "description": "Web application that provides the weather in the cities around the world",
-    "color": "black",
-    "technologies": ["HTML", "CSS", "JavaScript", "React"]
-  },
-  {
-    "name": "Weather app",
-    "link": "https://weather-anderson-m.netlify.app/",
-    "repository": "https://github.com/anmarinur/weather-app",
-    "image": "/img/weather-app.png",
-    "description": "Web application that provides the weather in the cities around the world",
-    "color": "black",
-    "technologies": ["HTML", "CSS", "JavaScript", "React"]
-  },
-  {
-    "name": "Weather app",
-    "link": "https://weather-anderson-m.netlify.app/",
-    "repository": "https://github.com/anmarinur/weather-app",
-    "image": "/img/weather-app.png",
-    "description": "Web application that provides the weather in the cities around the world",
-    "color": "black",
-    "technologies": ["HTML", "CSS", "JavaScript", "React"]
-  },
-  {
-    "name": "Weather app",
-    "link": "https://weather-anderson-m.netlify.app/",
-    "repository": "https://github.com/anmarinur/weather-app",
-    "image": "/img/weather-app.png",
-    "description": "Web application that provides the weather in the cities around the world",
-    "color": "black",
-    "technologies": ["HTML", "CSS", "JavaScript", "React"]
   }
 ]
