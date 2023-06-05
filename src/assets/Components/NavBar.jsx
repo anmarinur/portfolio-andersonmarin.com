@@ -26,6 +26,16 @@ export function NavBar() {
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <div className="container-navbar-flags">
+        <div className="container-navbar-flag">
+          <img className="flag-navbar" src="/colombia.svg" alt="Bandera de Colombia" />
+          <span>ESP</span>
+        </div>
+        <div className="container-navbar-flag">
+          <img className="flag-navbar" src="/usa.svg" alt="Bandera de Estados Unidos" />
+          <span>ENG</span>
+        </div>
+      </div>
     </div>
   );
 }

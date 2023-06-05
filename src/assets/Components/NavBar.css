@@ -7,8 +7,9 @@
   padding: 0.3rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  gap: 1rem;
   z-index: 99999;
 }
 
@@ -54,12 +55,34 @@
   width: 100%;
 }
 
+.container-navbar-flags {
+  padding: 0 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.container-navbar-flag {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.container-navbar-flag span {
+  color: var(--color-white)
+}
+
 .menu-responsive {
   display: flex;
   flex-direction: column;
   margin-top: 0.5rem;
   padding: 1rem 0;
   gap: 1rem;
+}
+
+.flag-navbar {
+  border-radius: 50%;
+  width: 1rem;
 }
 
 @media screen and (min-width: 900px) {
