@@ -4,8 +4,11 @@ import { Profile } from './assets/Components/Profile'
 import { Portfolio } from './assets/Components/Portfolio'
 import { Contact } from './assets/Components/Contact'
 import './App.css'
+import { useSelector } from 'react-redux'
 
 function App() {
+
+  const language = useSelector((state) => state.lang.language)
 
   return (
     <>
@@ -14,7 +17,7 @@ function App() {
       <Technologies /> 
       <Portfolio />
       <Contact />
-      <p className="app-p">Copyright © - Developed by Anderson Marín</p>
+      <p className="app-p">Copyright © - {language ? " Developed by " : " Desarrollado por "}<span>Anderson Marín</span></p>
     </>
   )
 }

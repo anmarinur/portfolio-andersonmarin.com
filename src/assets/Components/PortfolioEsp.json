@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Portafolio Personal",
+    "link": "https://www.andersonmarin.com/",
+    "repository": "https://github.com/anmarinur/portfolio-andersonmarin.com",
+    "image": "/img/personal-portfolio.png",
+    "description": "Portafolio personal sobre mis habilidades y experiencias en el campo del desarrollo web",
+    "color": "white",
+    "technologies": ["HTML", "CSS", "JavaScript", "React", "Vite"]
+  },
+  {
+    "name": "Tienda Electrónica de Productos Tecnológicos",
+    "link": "https://e-commerce-pf-henna.vercel.app/",
+    "repository": "https://github.com/anmarinur/E-commerce-PF",
+    "image": "/img/e-commerce-app.png",
+    "description": "Tienda electrónica sobre productos tecnológicos",
+    "color": "black",
+    "technologies": ["HTML", "CSS", "JavaScript", "React"]
+  },
+  {
+    "name": "Clima app",
+    "link": "https://weather-anderson-m.netlify.app/",
+    "repository": "https://github.com/anmarinur/weather-app",
+    "image": "/img/weather-app.png",
+    "description": "Aplicación web que proporciona el clima de las ciudades al rededor del mundo",
+    "color": "black",
+    "technologies": ["HTML", "CSS", "JavaScript", "React"]
+  }
+]

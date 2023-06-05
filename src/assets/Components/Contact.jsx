@@ -1,3 +1,4 @@
+import { useSelector } from 'react-redux';
 import './Contact.css';
 import { TechCard } from './TechCard';
 import './TechCard.css';
@@ -9,6 +10,8 @@ export function Contact() {
     mail: 'E-mail'
   }
 
+  const language = useSelector((state) => state.lang.language);
+
   const links = [
     'https://www.linkedin.com/in/andersonmarindev/',
     'https://www.instagram.com/anmarinur.dev/',
@@ -17,7 +20,7 @@ export function Contact() {
 
   return(
     <div className="container-contact">
-      <h2 id="contact" className="contact-title">Contact</h2>
+      <h2 id="contact" className="contact-title">{language ? "Contact" : "Contacto"}</h2>
       <div className="container-tech-cards">
         {
           Object.keys(technologies).map((key, i) => (

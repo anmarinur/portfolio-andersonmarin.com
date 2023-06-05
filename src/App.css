@@ -1,4 +1,8 @@
 .app-p {
-  color: var(--color-white);
+  color: var(--color-secundary);
   text-align: center;
+}
+
+.app-p span{
+  color: var(--color-white);
 }

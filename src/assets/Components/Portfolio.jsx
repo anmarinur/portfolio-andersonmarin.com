@@ -1,14 +1,18 @@
 import './Portfolio.css';
 import { CardPortfolio } from './CardPortfolio';
-import data from './Porfolio.json';
+import data from './Portfolio.json';
+import dataEsp from './PortfolioEsp.json'
 import { useState } from 'react';
+import { useSelector } from 'react-redux';
 
 export function Portfolio() {
 
   const [limit, setLimit] = useState(true);
-  let dataFull = [...data];
+  const language = useSelector((state) => state.lang.language);
+  let dataFull = language ? [...data] : [...dataEsp];
   let arrow = '/arrow-down.svg';
   let textArrow = 'More';
+
 
   const handlerClick = () => {
     setLimit(!limit);
@@ -17,16 +21,16 @@ export function Portfolio() {
   if (limit) {
     dataFull.splice(3);
     arrow = '/arrow-down.svg';
-    textArrow = 'View more';
+    textArrow = language ? "View more" : "Ver más";
   } else {
     dataFull = data;
     arrow = '/arrow-up.svg';
-    textArrow = 'Less';
+    textArrow = language ? 'View less' : "Ver menos";
   }
 
   return(
     <div id="portfolio" className="container-portfolio">
-      <h2 className="title-portfolio">Portfolio</h2>
+      <h2 className="title-portfolio">{language ? "Portfolio" : "Portafolio"}</h2>
       <div className="container-portfolio-cards">
         {
           dataFull.map((p, i) => (

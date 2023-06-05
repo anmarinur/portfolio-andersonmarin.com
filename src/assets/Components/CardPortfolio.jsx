@@ -1,9 +1,12 @@
+import { useSelector } from 'react-redux';
 import './CardPortfolio.css';
 
 export function CardPortfolio({ name, link, repository, image, description, technologies, color }) {
 
   let htmlTech = '';
   let colorTags = '';
+
+  const language = useSelector((state) => state.lang.language);
 
   technologies.map((tech, i) => (
     i < technologies.length - 1 ? htmlTech += tech + ', ' : htmlTech += tech 
@@ -33,7 +36,7 @@ export function CardPortfolio({ name, link, repository, image, description, tech
         </div>
       </figure>
       <div className="container-card-links">
-        <a href={repository} target='_blanck'><img src="/github.svg" alt="Ícono github" /><span>Repository</span></a>
+        <a href={repository} target='_blanck'><img src="/github.svg" alt="Ícono github" /><span>{language ? "Repository" : "Repositorio"}</span></a>
         <a href={link} target='_blanck'><img src="/www.svg" alt="Ícono Internet" /><span>Demo</span></a>
       </div>
     </div>
