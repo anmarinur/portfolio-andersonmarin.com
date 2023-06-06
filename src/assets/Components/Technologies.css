@@ -13,9 +13,30 @@
   gap: 2rem;
 }
 
+.container-tech-cards-sub {
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.container-tech-cards-sub div img {
+  width: clamp(2rem, 1.532rem + 2.078vw, 4rem);
+}
+
 .tech-title {
   color: var(--color-white);
   text-align: center;
   margin-top: 2rem;
   font-size: clamp(1.5rem, 1.149rem + 1.558vw, 3rem);
+}
+
+.tech-sub-title {
+  color: var(--color-white);
+  text-align: center;
+  margin-top: 4rem;
+  font-size: clamp(1rem, 0.766rem + 1.039vw, 2rem);
 }

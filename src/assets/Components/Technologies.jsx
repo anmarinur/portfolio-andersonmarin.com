@@ -14,6 +14,16 @@ export function Technologies() {
     github: 'GitHub'
   }
 
+  const subtechnologies = {
+    bootstrap: 'Bootstrap',
+    jquery: 'jQuery',
+    nodejs: 'Node.js',
+    php: 'PHP',
+    symfony: 'Symfony',
+    postgresql: 'PostgreSQL',
+    mariadb: 'MariaDB'
+  }
+
   return (
     <div className="container-tech">
       <h2 id="tech" className="tech-title">{language ? 'Skills' : 'Habilidades'}</h2>
@@ -21,6 +31,14 @@ export function Technologies() {
         {
           Object.keys(technologies).map(key => (
             <TechCard name={technologies[key]} key={key} svgRoute={`/${key}`}/>
+          ))
+        }
+      </div>
+      <h3 className='tech-sub-title'>{language ? "Also I've worked with:" : "También he trabajado con:"}</h3>
+      <div className='container-tech-cards-sub'>
+        {
+          Object.keys(subtechnologies).map(key => (
+            <TechCard name={subtechnologies[key]} key={key} svgRoute={`/${key}`}/>
           ))
         }
       </div>

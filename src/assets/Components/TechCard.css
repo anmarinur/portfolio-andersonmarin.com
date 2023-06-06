@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 
 .tech-card-title {
@@ -12,8 +13,9 @@
 .tech-card-img {
   transition: all 300ms;
   width: clamp(3rem, 1.831rem + 5.195vw, 8rem);
+  margin: 0;
 }
 
-.tech-card-img:hover {
+/*.tech-card-img:hover {
   filter: drop-shadow(0 0 3rem var(--color-white));
-}
+}*/
