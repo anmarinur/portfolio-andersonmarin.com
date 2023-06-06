@@ -64,8 +64,10 @@
 .container-navbar-flag {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 0.5rem;
   cursor: pointer;
+  height: 100%;
 }
 
 .container-navbar-flag span {
@@ -82,7 +84,7 @@
 
 .flag-navbar {
   border-radius: 50%;
-  width: 1rem;
+  width:1.2rem;
 }
 
 @media screen and (min-width: 900px) {
