@@ -92,9 +92,16 @@
 }
 
 .container-card-portfolio-sm h2, .container-card-portfolio-sm-p {
-  font-size: 1rem;
   text-align: center;
   color: var(--color-white);
+}
+
+.container-card-portfolio-sm h2 {
+  font-size: 1.5rem;
+}
+
+.container-card-portfolio-sm-p {
+  font-size: 1rem;
 }
 
 .container-card-portfolio-sm-tech {
