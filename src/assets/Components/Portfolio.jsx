@@ -10,7 +10,7 @@ export function Portfolio() {
   const [limit, setLimit] = useState(true);
   const language = useSelector((state) => state.lang.language);
   let dataFull = language ? [...data] : [...dataEsp];
-  let arrow = '/arrow-down.svg';
+  let arrow = '/svg/arrow-down.svg';
   let textArrow = 'More';
 
 
@@ -20,11 +20,11 @@ export function Portfolio() {
 
   if (limit) {
     dataFull.splice(3);
-    arrow = '/arrow-down.svg';
+    arrow = '/svg/arrow-down.svg';
     textArrow = language ? "View more" : "Ver más";
   } else {
     dataFull = data;
-    arrow = '/arrow-up.svg';
+    arrow = '/svg/arrow-up.svg';
     textArrow = language ? 'View less' : "Ver menos";
   }
 

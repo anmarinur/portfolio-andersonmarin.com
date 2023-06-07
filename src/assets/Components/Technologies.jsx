@@ -30,7 +30,7 @@ export function Technologies() {
       <div className="container-tech-cards">
         {
           Object.keys(technologies).map(key => (
-            <TechCard name={technologies[key]} key={key} svgRoute={`/${key}`}/>
+            <TechCard name={technologies[key]} key={key} svgRoute={`/svg/${key}`}/>
           ))
         }
       </div>
@@ -38,7 +38,7 @@ export function Technologies() {
       <div className='container-tech-cards-sub'>
         {
           Object.keys(subtechnologies).map(key => (
-            <TechCard name={subtechnologies[key]} key={key} svgRoute={`/${key}`}/>
+            <TechCard name={subtechnologies[key]} key={key} svgRoute={`/svg/${key}`}/>
           ))
         }
       </div>

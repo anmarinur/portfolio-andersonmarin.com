@@ -1,6 +1,6 @@
 import './Profile.css'
-import logo from '/anmarinur.svg'
-import bulb from '/bulb.svg'
+import logo from '/svg/anmarinur.svg'
+import bulb from '/svg/bulb.svg'
 import { useSelector } from 'react-redux';
 
 export function Profile() {

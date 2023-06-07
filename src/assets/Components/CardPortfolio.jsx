@@ -36,8 +36,8 @@ export function CardPortfolio({ name, link, repository, image, description, tech
         </div>
       </figure>
       <div className="container-card-links">
-        <a href={repository} target='_blanck'><img src="/github.svg" alt="Ícono github" /><span>{language ? "Repository" : "Repositorio"}</span></a>
-        <a href={link} target='_blanck'><img src="/www.svg" alt="Ícono Internet" /><span>Demo</span></a>
+        <a href={repository} target='_blanck'><img src="/svg/github.svg" alt="Ícono github" /><span>{language ? "Repository" : "Repositorio"}</span></a>
+        <a href={link} target='_blanck'><img src="/svg/www.svg" alt="Ícono Internet" /><span>Demo</span></a>
       </div>
     </div>
   );

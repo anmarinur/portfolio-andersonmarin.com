@@ -24,7 +24,7 @@ export function Contact() {
       <div className="container-tech-cards">
         {
           Object.keys(technologies).map((key, i) => (
-            <a href={links[i]} target='_blanc'key={key}><TechCard name={technologies[key]} svgRoute={`/${key}`}/></a>
+            <a href={links[i]} target='_blanc'key={key}><TechCard name={technologies[key]} svgRoute={`/svg/${key}`}/></a>
           ))
         }
       </div>

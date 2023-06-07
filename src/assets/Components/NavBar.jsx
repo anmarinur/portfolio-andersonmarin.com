@@ -24,9 +24,9 @@ export function NavBar() {
   }
  
   if (menu) {
-    menuIcon = '/menuX.svg';
+    menuIcon = '/svg/menuX.svg';
   } else {
-    menuIcon = '/menu.svg';
+    menuIcon = '/svg/menu.svg';
   }
 
   return (
@@ -41,11 +41,11 @@ export function NavBar() {
       </ul>
       <div className="container-navbar-flags">
         <div className="container-navbar-flag" onClick={handlerClickEsp}>
-          <img className="flag-navbar" src="/colombia.svg" alt="Bandera de Colombia" />
+          <img className="flag-navbar" src="/svg/colombia.svg" alt="Bandera de Colombia" />
           <span>ESP</span>
         </div>
         <div className="container-navbar-flag" onClick={handlerClickEng}>
-          <img className="flag-navbar" src="/usa.svg" alt="Bandera de Estados Unidos"/>
+          <img className="flag-navbar" src="/svg/usa.svg" alt="Bandera de Estados Unidos"/>
           <span>ENG</span>
         </div>
       </div>
