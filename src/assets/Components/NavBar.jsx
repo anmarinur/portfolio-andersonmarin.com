@@ -34,7 +34,7 @@ export function NavBar() {
       <img className="navbar-menu" alt="Ícono menú" src={menuIcon} onClick={handlerClick}/>
       <ul className ={menu ? "container-navbar-ul menu-responsive" : "container-navbar-ul"}>
         <li><a href="#">Anderson Marín</a></li>
-        <li><a href="#profile">{language ? 'Profile' : 'Perfil'}</a></li>
+        <li><a href="#">{language ? 'Profile' : 'Perfil'}</a></li>
         <li><a href="#tech">{language ? 'Skills' : 'Habilidades'}</a></li>
         <li><a href="#portfolio">{language ? 'Portfolio' : 'Portafolio'}</a></li>
         <li><a href="#contact">{language ? 'Contact' : 'Contacto'}</a></li>

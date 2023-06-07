@@ -7,8 +7,6 @@ export function Profile() {
 
   const language = useSelector((state) => state.lang.language);
 
-  console.log('render', language);
-
   return (
     <div id="profile" className='container-profile'>
       <div className='container-profile-logo'>

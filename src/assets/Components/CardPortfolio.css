@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2rem;
 }
 
 .container-card-portfolio figure {
@@ -87,7 +88,7 @@
 .container-card-portfolio-sm {
   width: 100%;
   border-top: 0.1rem solid var(--color-secundary);
-  padding-top: 1rem;
+  padding-top: 3rem;
 }
 
 .container-card-portfolio-sm h2, .container-card-portfolio-sm-p {
