@@ -11,6 +11,8 @@ export function Technologies() {
     css3: 'CSS',
     javascript: 'JavaScript',
     react: 'React',
+    typescript: 'TypeScript',
+    tailwind: 'Tailwind',
     github: 'GitHub'
   }
 
