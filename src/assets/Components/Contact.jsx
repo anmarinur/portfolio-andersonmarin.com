@@ -6,6 +6,7 @@ import './TechCard.css';
 export function Contact() {
   const technologies = {
     linkedin: 'LinkedIn',
+    github:'GitHub', 
     instagram: 'Instagram',
     mail: 'E-mail'
   }
@@ -14,8 +15,9 @@ export function Contact() {
 
   const links = [
     'https://www.linkedin.com/in/andersonmarindev/',
-    'https://www.instagram.com/anmarinur.dev/',
-    'mailto:andersonmarindev@gmail.com'
+    'https://github.com/anmarinur',
+    'mailto:andersonmarindev@gmail.com',
+    'https://www.instagram.com/anmarinur.dev/'
   ]
 
   return(
