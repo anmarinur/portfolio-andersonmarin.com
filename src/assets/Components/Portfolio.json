@@ -1,12 +1,12 @@
 [
   {
-    "name": "Personal Portfolio",
-    "link": "https://www.andersonmarin.com/",
-    "repository": "https://github.com/anmarinur/portfolio-andersonmarin.com",
-    "image": "/img/personal-portfolio.png",
-    "description": "Personal portfolio about my skills and expertice in the web development field",
-    "color": "white",
-    "technologies": ["HTML", "CSS", "JavaScript", "React", "Vite"]
+    "name": "Tesla Landing",
+    "link": "https://tesla-landing-demo.vercel.app/",
+    "repository": "https://github.com/anmarinur/tesla-landing",
+    "image": "/img/tesla-landing.png",
+    "description": "Practice exercise based on Tesla's landing page",
+    "color": "black",
+    "technologies": ["HTML", "CSS", "JavaScript", "Astro", "Tailwind"]
   },
   {
     "name": "Technology E-Commerce",
