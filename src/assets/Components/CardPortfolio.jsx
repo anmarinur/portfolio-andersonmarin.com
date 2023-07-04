@@ -12,10 +12,6 @@ export function CardPortfolio({ name, link, repository, image, description, tech
     i < technologies.length - 1 ? htmlTech += tech + ', ' : htmlTech += tech 
   ))
 
-  if (color == 'white') {
-    colorTags = 'yellow';
-  }
-
   return (
     <div className="container-card-portfolio">
       <div className='container-card-portfolio-sm'>
@@ -30,14 +26,16 @@ export function CardPortfolio({ name, link, repository, image, description, tech
         <div className="container-card-capa">
           <h2 className={`container-card-portfolio-title ${color}`}>{name}</h2>
           <p className={`container-card-portfolio-p ${color}`}>{description}</p>
-          <p className={`container-card-portfolio-tech ${colorTags}`}>           
-            {htmlTech}
-          </p>
+          <div className={`container-card-portfolio-tech`}>           
+            {technologies.map((tech) => {
+             return <img src={`/svg/${tech}.svg`} alt={`${tech}`} key={`${tech}`} />
+            })}
+          </div>
         </div>
       </figure>
       <div className="container-card-links">
         <a href={repository} target='_blanck'><img src="/svg/github.svg" alt="Ícono github" /><span>{language ? "Repository" : "Repositorio"}</span></a>
-        <a href={link} target='_blanck'><img src="/svg/www.svg" alt="Ícono Internet" /><span>Demo</span></a>
+        <a href={link} target='_blanck'><img src="/svg/www.svg" alt="Ícono Internet" /><span>Web</span></a>
       </div>
     </div>
   );

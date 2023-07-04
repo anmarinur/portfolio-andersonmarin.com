@@ -57,10 +57,10 @@
   margin: 0 auto;
 }
 
-.container-card-portfolio-tech {
-  padding-top: 1rem;
-  font-size: 1rem;
-  font-weight: bold;
+.container-card-portfolio-tech img {
+  margin-top: 1rem;
+  max-height: 3rem;
+  filter: invert(100%);
 }
 
 .container-card-links {

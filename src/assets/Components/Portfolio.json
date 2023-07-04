@@ -6,7 +6,7 @@
     "image": "/img/tesla-landing.png",
     "description": "Practice exercise based on Tesla's landing page",
     "color": "black",
-    "technologies": ["HTML", "CSS", "JavaScript", "Astro", "Tailwind"]
+    "technologies": ["html5", "css3", "javascript", "tailwind"]
   },
   {
     "name": "Technology E-Commerce",
@@ -15,7 +15,7 @@
     "image": "/img/e-commerce-app.png",
     "description": "E-commerce about electronic products",
     "color": "black",
-    "technologies": ["HTML", "CSS", "JavaScript", "React"]
+    "technologies": ["html5", "css3", "javascript", "react"]
   },
   {
     "name": "Weather app",
@@ -24,6 +24,6 @@
     "image": "/img/weather-app.png",
     "description": "Web application that provides the weather in the cities around the world",
     "color": "black",
-    "technologies": ["HTML", "CSS", "JavaScript", "React"]
+    "technologies": ["html5", "css3", "javascript", "react"]
   }
 ]

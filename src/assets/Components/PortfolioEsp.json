@@ -6,16 +6,16 @@
     "image": "/img/tesla-landing.png",
     "description": "Ejercicio de práctica basado en la landing page de la empresa Tesla",
     "color": "black",
-    "technologies": ["HTML", "CSS", "JavaScript", "Astro", "Tailwind"]
+    "technologies": ["html5", "css3", "javascript", "tailwind"]
   },
   {
-    "name": "Tienda Electrónica de Productos Tecnológicos",
+    "name": "E-Commerce de Tecnología",
     "link": "https://e-commerce-pf-henna.vercel.app/",
     "repository": "https://github.com/anmarinur/E-commerce-PF",
     "image": "/img/e-commerce-app.png",
     "description": "Tienda electrónica sobre productos tecnológicos",
     "color": "black",
-    "technologies": ["HTML", "CSS", "JavaScript", "React"]
+    "technologies": ["html5", "css3", "javascript", "react"]
   },
   {
     "name": "Clima app",
@@ -24,6 +24,6 @@
     "image": "/img/weather-app.png",
     "description": "Aplicación web que proporciona el clima de las ciudades al rededor del mundo",
     "color": "black",
-    "technologies": ["HTML", "CSS", "JavaScript", "React"]
+    "technologies": ["html5", "css3", "javascript", "react"]
   }
 ]
