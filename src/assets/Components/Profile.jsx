@@ -19,8 +19,8 @@ export function Profile() {
       <div className='container-about-me'>
         <div className="container-about-me-p">
           <img alt="Ícono de un bombillo" src={bulb} className="p-bulb"/>
-          <p className='p-profile'>{language ? "Hi, I'm Anderson! A highly motivated and passionate web developer." : 
-          "Hola, soy Anderson! Un apasionado y altamente motivado desarrollador web."}</p>
+          <p className='p-profile'>{language ? "Highly motivated electronic engineer with passion for web development. Extensive experience working on various projects ranging from small applications to complex enterprise solutions." : 
+          "Ingeniero electrónico altamente motivado y apasionado por el desarrollo web. Con amplia experiencia participando en varios proyectos, desde pequeñas aplicaciones hasta soluciones empresariales complejas."}</p>
         </div>
       </div>
     </div>
