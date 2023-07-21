@@ -1,5 +1,14 @@
 [
   {
+    "name": "QR Component",
+    "link": "https://anmarinur.github.io/qr-code-component/",
+    "repository": "https://github.com/anmarinur/qr-code-component",
+    "image": "/img/qr-page.avif",
+    "description": "QR component for Frontend Mentor Challenge",
+    "color": "black",
+    "technologies": ["html5", "css3"]
+  },
+  {
     "name": "Tesla Landing",
     "link": "https://tesla-landing-demo.vercel.app/",
     "repository": "https://github.com/anmarinur/tesla-landing",
