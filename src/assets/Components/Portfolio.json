@@ -4,7 +4,7 @@
     "link": "https://anmarinur.github.io/basic-portfolio/",
     "repository": "https://github.com/anmarinur/basic-portfolio",
     "image": "/img/basic-portfolio.avif",
-    "description": "A porfolio with basic information and a contact form",
+    "description": "A portfolio with basic information and a contact form",
     "color": "black",
     "technologies": ["html5", "css3"]
   },
