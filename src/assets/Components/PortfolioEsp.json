@@ -1,5 +1,14 @@
 [
   {
+    "name": "Portafolio Básico",
+    "link": "https://anmarinur.github.io/basic-portfolio/",
+    "repository": "https://github.com/anmarinur/basic-portfolio",
+    "image": "/img/basic-portfolio.avif",
+    "description": "Portafolio con información básica y un formulario de contacto",
+    "color": "black",
+    "technologies": ["html5", "css3"]
+  },
+  {
     "name": "Componente QR",
     "link": "https://anmarinur.github.io/qr-code-component/",
     "repository": "https://github.com/anmarinur/qr-code-component",

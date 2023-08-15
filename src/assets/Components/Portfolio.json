@@ -1,5 +1,14 @@
 [
   {
+    "name": "Basic Portfolio",
+    "link": "https://anmarinur.github.io/basic-portfolio/",
+    "repository": "https://github.com/anmarinur/basic-portfolio",
+    "image": "/img/basic-portfolio.avif",
+    "description": "A porfolio with basic information and a contact form",
+    "color": "black",
+    "technologies": ["html5", "css3"]
+  },
+  {
     "name": "QR Component",
     "link": "https://anmarinur.github.io/qr-code-component/",
     "repository": "https://github.com/anmarinur/qr-code-component",
